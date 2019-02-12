@@ -7,7 +7,19 @@
   clear: both;
 }
 
-.q7_leftbox {
+.subbox {
+  float: left;
+  width: 205px;
+  font-size: 16px;
+  margin-left: 50px;
+}
+
+.subbox:first-child {
+  margin-left: 0;
+}
+
+
+/* .q7_leftbox {
   float: left;
   width: 205px;
   font-size: 16px;
@@ -18,7 +30,9 @@
   float: left;
   width: 205px;
   font-size: 16px;
-}
+} */
+
+
 
 .q7_text {
   font-size: 16px;

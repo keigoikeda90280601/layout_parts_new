@@ -11,20 +11,16 @@
   padding: 20px;
 }
 
-.q4_box1 {
+.q4_box {
   display: table;
   text-align: center;
-  margin-bottom: 20px;
   width: 100%;
-}
-
-.q4_box2 {
-  display: table;
-  text-align: center;
   margin-top: 20px;
-  width: 100%;
 }
 
+.q4_box:first-child {
+  margin-top: 0;
+}
 
 .orange_box {
   width: 100px;

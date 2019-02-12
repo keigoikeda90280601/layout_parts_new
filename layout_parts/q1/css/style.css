@@ -7,17 +7,24 @@
   clear: both;
 }
 
-.box {
-  width: 940px;
+.mainbox {
+  width: 900px;
   background-color: #eff3f4;
+  margin: 0 auto;
+  padding: 20px;  
 }
 
 
 .q1_content_box {
-  width: 270px;
+  width: 230px;
   background-color: #3274ae;
   float: left;
-  margin: 20px 0 20px 20px;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.q1_content_box:first-child {
+  margin-left: 0;
 }
 
 .q1_content_text {
@@ -26,6 +33,5 @@
   border: 10px solid #022336;
   background-color: #eaf4ff;
   padding: 20px;
-  margin: 20px;
 }
 /* 回答はここに書いてね */

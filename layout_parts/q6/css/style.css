@@ -2,15 +2,16 @@
 
 /* 回答はここに書いてね */
 .q6_leftbox {
-  width: 90px;
-  padding: 10px;
-  background-color: #e6f2ff;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .q6_lefttext {
-  text-align: center;
+  display: inline-block;
+  width: 90px;
+  padding: 10px;
+  background-color: #e6f2ff;
 }
+
 
 .q6_text {
   width: 90px;

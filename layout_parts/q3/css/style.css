@@ -2,15 +2,12 @@
 
 /* 回答はここに書いてね */
 
-table {
+.foodbox {
   border: 1px;
   table-layout: fixed;
   width: 100%;
 }
 
-table:first-child {
-  margin-top: 20px;
-}
 
 .food-menu th {
   border: 1px solid #dedede;

@@ -7,15 +7,12 @@
   clear: both;
 }
 
-.clearfix {
-  margin-top: 20px;
+ul > li {
+  margin-bottom: 20px;
 }
 
-.clearfix:first-child {
-  margin-top: 0;
-}
 
-.small div {
+.small {
   border-radius: 3px;
   font-size: 16px;
   padding: 0 15px;
@@ -23,7 +20,7 @@
   margin-left: 10px;
 }
 
-.middle div {
+.middle {
   border-radius: 5px;
   font-size: 20px;
   padding: 0 20px;
@@ -31,7 +28,7 @@
   margin-left: 10px;
 }
 
-.large div {
+.large {
   border-radius: 7px;
   font-size: 24px;
   padding: 0 25px;
@@ -259,6 +256,7 @@
   font-size: 16px;
   border-radius: 5px;
   outline: none;
+  border: none;
 }
 
 .sendbutton:active {
