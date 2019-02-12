@@ -7,9 +7,6 @@
   clear: both;
 }
 
-ul > li {
-  margin-bottom: 20px;
-}
 
 
 .small {
@@ -67,6 +64,14 @@ ul > li {
 .leftitem {
   list-style: none;
   margin-bottom:20px;
+}
+
+.leftitem > li {
+  margin-bottom: 20px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 .q8_mainbox {
@@ -262,7 +267,6 @@ ul > li {
 .sendbutton:active {
   background-color: #fff;
   color: #00bcd4;
-  border: none;
   outline: none;
 }
 

@@ -40,7 +40,6 @@
 
 .q9_box:hover .img_transition {
   transform: scale(1.5);
-  transition: 0.5s;
 }
 
 .img_transition {
