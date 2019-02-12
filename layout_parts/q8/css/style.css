@@ -1,5 +1,297 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  margin-top: 20px;
+}
+
+.clearfix:first-child {
+  margin-top: 0;
+}
+
+.small div {
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 0 15px;
+  line-height: 26px;
+  margin-left: 10px;
+}
+
+.middle div {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 0 20px;
+  line-height: 32px;
+  margin-left: 10px;
+}
+
+.large div {
+  border-radius: 7px;
+  font-size: 24px;
+  padding: 0 25px;
+  line-height: 38px;
+  margin-left: 10px;
+}
+
+.common {
+  display: inline-block;
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+}
+
+.error {
+  display: inline-block;
+  background-color: #ff4081;
+  color:#fff;
+  cursor: pointer;
+}
+
+.disabled {
+  display: inline-block;
+  background-color: #e5e5e5;
+  color: #fff;
+  cursor: default;
+}
+
+.shadow {
+  display: inline-block;
+  color: #222;
+  cursor: pointer;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
+}
+
+.leftitem {
+  list-style: none;
+  margin-bottom:20px;
+}
+
+.q8_mainbox {
+  width: 700px;
+  background-color: #ecf1f2;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px;
+}
+
+.q8_title {
+  margin-bottom: 20px;
+}
+
+.q8_form {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #ecf1f2;
+  position: relative;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+ .q8_title::before {
+  content:"";
+  width: 700px;
+  height: 1px;
+  background-color: #ccc;
+  position: absolute;
+  top: 8%;
+}
+
+.q8_formleft {
+  float: left;
+  width: 300px;
+}
+
+.q8_formright {
+  width: 380px;
+  float: right;
+}
+
+.lefttext {
+  float: left;
+  width: 100px;
+  margin-top: 20px;
+  text-align: right; 
+  line-height: 25px; 
+}
+
+.lefttext:first-child {
+  margin-top: 0;
+}
+
+.rightform {
+  float: right;
+  width: 180px;
+  position: relative;
+}
+
+.righttext{
+  margin-top: 0;
+}
+
+.radio_input{
+  display: none;
+}
+.radio_input + label{
+  padding-left: 20px;
+  position:relative;
+  margin-right: 5px;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.radio_input + label::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.radio_input:checked + label::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 9px;
+  height: 9px;
+  background: #00bcd4;
+  border-radius: 50%;
+}
+
+
+
+
+.arrow:after {
+  content: "";
+  display: block;
+  width: 8px;
+  height:8px;
+  position: absolute;
+  top:4px;  
+  right:10px;
+  border-right: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+  transform: rotate(45deg);
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.graduate {
+  width: 180px;
+  height:22px;
+  background: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.inputitem {
+  width:180px;
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+
+.checkbox_input{
+  padding-left: 20px;
+  position:relative;
+  margin-bottom: 14px;
+  display: inline-block;
+  margin-left: 55px;
+  -webkit-appearance: none;
+  outline: none;
+}
+.checkbox_input::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.checkbox_input:checked + span::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 60px;
+  width: 8px;
+  height: 15px;
+  transform: rotate(45deg);
+  border-bottom: 3px solid #00bcd4;
+  border-right: 3px solid #00bcd4;
+}
+
+.send {
+  text-align: right;
+}
+.sendbutton {
+  padding: 0 10px;
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.sendbutton:active {
+  background-color: #fff;
+  color: #00bcd4;
+  border: none;
+  outline: none;
+}
+
+.asterisk::after {
+  content: '*';
+  color: #f00;
+}
+
+
+.q8_textarea {
+  width: 100%;
+  height: 203px;
+  border-radius: 3px;
+  border: none;
+  font-size: 12px;
+  padding: 10px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.outline {
+  outline: none;
+}
+
+.outline:focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
+
 
 /* 回答はここに書いてね */
