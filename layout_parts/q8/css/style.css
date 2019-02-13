@@ -70,7 +70,7 @@
   margin-bottom: 20px;
 }
 
-li:last-child {
+.leftitem > li:last-child {
   margin-bottom: 0;
 }
 
